@@ -10,9 +10,9 @@ class Splash extends React.Component {
   async checkLogin() {
     await SessionManager.init();
     if(SessionManager.isLoggedIn()) {
-      Actions.replace("main");
+      Actions.reset("main");
     } else {
-      Actions.replace("login");
+      Actions.reset("login");
     }
   }
 

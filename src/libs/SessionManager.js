@@ -81,7 +81,7 @@ class SessionManager {
       }
     this.token = User.jSessionId;
     try {
-      this.regulation = JSON.parse(StorageHelper.get('regulation'));
+      //this.regulation = JSON.parse(StorageHelper.get('regulation'));
     } catch (e) {
       console.log(e);
     }
