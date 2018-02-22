@@ -1,0 +1,44 @@
+{
+	"name": "hapulico",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"base-64": "^0.1.0",
+		"js-md5": "^0.7.3",
+		"moment": "^2.19.2",
+		"numeral": "^2.0.6",
+		"react": "^16.0.0",
+		"react-native": "^0.50.3",
+		"react-native-elements": "^0.18.2",
+		"react-native-fcm": "^11.0.1",
+		"react-native-file-uploader": "git+https://github.com/leonacky/react-native-file-uploader.git",
+		"react-native-htmlview": "^0.12.1",
+		"react-native-i18n": "^2.0.9",
+		"react-native-image-picker": "^0.26.7",
+		"react-native-image-resizer": "git+https://github.com/leonacky/react-native-image-resizer.git",
+		"react-native-invertible-scroll-view": "^1.1.0",
+		"react-native-keyboard-aware-scroll-view": "^0.4.1",
+		"react-native-linear-gradient": "^2.3.0",
+		"react-native-material-dropdown": "^0.6.1",
+		"react-native-popover-tooltip": "^1.1.4",
+		"react-native-router-flux": "^4.0.0-beta.23",
+		"react-native-scrollable-tab-view": "^0.8.0",
+		"react-native-spinkit": "^1.1.1",
+		"react-native-vector-icons": "^4.4.2",
+		"realm": "^2.1.1",
+		"striptags": "^3.1.1"
+	},
+	"devDependencies": {
+		"babel-jest": "21.2.0",
+		"babel-preset-react-native": "4.0.0",
+		"jest": "21.2.1",
+		"react-test-renderer": "16.0.0"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
