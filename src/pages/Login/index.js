@@ -75,7 +75,7 @@ class Login extends React.Component {
       if (!err) {
         StorageHelper.set('username', this.state.username);
         SessionManager.saveUserInfo(res);
-        Actions.replace('main');
+        Actions.reset('main');
       } else {
         alert('Username hoặc password không chính xác. Vui lòng thử lại!');
       }

@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "211808774017",
-    "firebase_url": "https://hapulicoapp.firebaseio.com",
-    "project_id": "hapulicoapp",
-    "storage_bucket": "hapulicoapp.appspot.com"
+    "project_number": "88520434524",
+    "firebase_url": "https://inorm-resident.firebaseio.com",
+    "project_id": "inorm-resident",
+    "storage_bucket": "inorm-resident.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:211808774017:android:be58819022929602",
+        "mobilesdk_app_id": "1:88520434524:android:55fabc796fc8d90d",
         "android_client_info": {
-          "package_name": "com.hapucitizen"
+          "package_name": "com.inorm_resident"
         }
       },
       "oauth_client": [
         {
-          "client_id": "211808774017-ia1hncjrqc6el6b7aecuvhiu2jo3o1ln.apps.googleusercontent.com",
+          "client_id": "88520434524-4ap43bmobfq2kh9jns2ejhhd0tg36h59.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBkyUXiw7W5yhMRycLeXbmf0Z0goAhda2A"
+          "current_key": "AIzaSyAEHdt2M8nK0qmIgK1rYDjFugX4Y2Pp4Bw"
         }
       ],
       "services": {

@@ -7,8 +7,8 @@ import md5 from 'js-md5';
 import StorageHelper from './StorageHelper';
 import RealmHelper from './RealmHelper';
 
-const BASE_URL = 'http://hapulico.easylink.vn/hapulico-api/mobile';
-const IMAGE_URL = 'http://hapulico.easylink.vn/hapulico-api';
+const BASE_URL = 'http://innorm.easylink.vn/hapulico-api/mobile';
+const IMAGE_URL = 'http://innorm.easylink.vn/hapulico-api';
 //const BASE_URL = 'http://113.171.23.144/hapulico-api/mobile';
 //const IMAGE_URL = 'http://113.171.23.144/hapulico-api';
 // const BASE_URL = 'https://50de02ba.ngrok.io/mobile';

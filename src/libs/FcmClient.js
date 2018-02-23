@@ -85,6 +85,7 @@ class FcmClient {
   }
 
   async processNotification (notif) {
+    
     if (notif == undefined) return;
     try {
       if (notif != undefined) {
@@ -97,7 +98,7 @@ class FcmClient {
             if (!message_id) {
               message_id = notif['google.message_id'];
             }
-            if (!message_id && notif) {
+            if (!message_id) {
               message_id = notif['message_id'];
             }
             let title = notif.title || (notif.fcm && notif.fcm.title);
@@ -118,7 +119,7 @@ class FcmClient {
         if (!message_id) {
           message_id = notif['google.message_id'];
         }
-        if (!message_id && notif) {
+        if (!message_id) {
           message_id = notif['message_id'];
         }
         let last_message_id = await StorageHelper.get('message_id');
@@ -129,6 +130,7 @@ class FcmClient {
         if (!image_link) {
           image_link = notif['image_link'];
         }
+        
         if (message_id != last_message_id && notif.body != '' && notif.body != undefined) {
           StorageHelper.set('message_id', message_id);
           try {
@@ -250,6 +252,7 @@ class FcmClient {
         let userInfo = await StorageHelper.getUserInfo();
         console.log('fcm', userInfo);
         let new_group = userInfo.topics;
+        
         for (let i in new_group) {
           if (new_group[i]) {
             FCM.subscribeToTopic(new_group[i]);
